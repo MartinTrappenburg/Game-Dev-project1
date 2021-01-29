@@ -93,7 +93,7 @@ public class MyAdventure : MonoBehaviour
         }
         if (input == "Continue") {
             if(currentState == States.Ignore) {
-                Continue();
+                 Continue();
              }
              if(currentState == States.Continue) {
                  Continue2();
